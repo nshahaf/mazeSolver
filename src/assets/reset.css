@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Mikhmoret', sans-serif;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    width: 100%;
+    height: 100vh;
+    color: var(--clr-text);
+    background-color: var(--clr-background);
+
+    display: grid;
+    place-items: center;
+}
+
+body {}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 400;
+    margin: 0;
+}
+
+li {
+    line-height: 0;
+}
+
+img {
+    width: 100%;
+    object-fit: contain;
+}
+
+p {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: none;
+}

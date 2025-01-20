@@ -1,0 +1,39 @@
+:root {
+    /* GRAYSCALE */
+    --clr-black: hsl(0, 0%, 0%);
+    --clr-gray-10: hsl(0, 0%, 10%);
+    --clr-gray-20: hsl(0, 0%, 20%);
+    --clr-gray-30: hsl(0, 0%, 30%);
+    --clr-gray-40: hsl(0, 0%, 40%);
+    --clr-gray-50: hsl(0, 0%, 50%);
+    --clr-gray-60: hsl(0, 0%, 60%);
+    --clr-gray-70: hsl(0, 0%, 70%);
+    --clr-gray-80: hsl(0, 0%, 80%);
+    --clr-gray-90: hsl(0, 0%, 90%);
+    --clr-white: hsl(0, 0%, 100%);
+
+    /* THEME COLORS*/
+    --clr-text: #0c090b;
+    --clr-background: #fbfafb;
+    --clr-primary: #987990;
+    --clr-secondary: #c3b3b1;
+    --clr-accent: #ac9b94;
+
+    /* BREAKPOINTS */
+    --breakpoint-xsmall: 320px;
+    --breakpoint-small: 480px;
+    --breakpoint-medium: 768px;
+    --breakpoint-large: 1024px;
+    --breakpoint-xlarge: 1200px;
+    --breakpoint-xxlarge: 1440px;
+}
+
+
+
+:root.dark {
+    --text: #f6f3f5;
+    --background: #060506;
+    --primary: #85667d;
+    --secondary: #4e3e3c;
+    --accent: #6b5952;
+}

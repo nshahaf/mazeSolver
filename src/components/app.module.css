@@ -1,0 +1,13 @@
+.app {
+    width: 100vw;
+    aspect-ratio: 1;
+}
+
+@media (min-width: 500px) {
+    .app {
+        max-width: 500px;
+        max-height: 500px;
+        box-shadow: 0 0 10px 2px var(--clr-gray-30);
+
+    }
+}
