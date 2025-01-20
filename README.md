@@ -4,7 +4,7 @@ This project is a Maze Solver application built with React. It uses the Breadth-
 
 ## Features
 
-- Generate a random binary maze
+- Generate a random maze
 - Load a predefined demo maze
 - Visualize the BFS algorithm solving the maze
 - Interactively modify the maze by clicking on cells
@@ -16,7 +16,7 @@ The `Maze` component is the main component that renders the maze grid and contro
 
 ## Services
 
-The `mazeService` module provides functions to generate a binary maze, reset the maze, and perform the BFS algorithm to find the shortest path.
+The `mazeService` module provides functions to generate a random maze, reset the maze, and perform the BFS algorithm to find the shortest path.
 
 ## Usage
 
